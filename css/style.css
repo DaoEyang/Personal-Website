@@ -7,6 +7,19 @@ body {
     
 }
 
+.h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header {
+    background-color: #065da4;
+    color: #f4fdff;
+    margin: -8px;
+}
+
+/*Home*/
+
 .home-bo {
     background-image: url(../images/background-snow.jpeg);
     background-attachment: fixed;
@@ -14,46 +27,24 @@ body {
     background-size: cover;
 }
 
-.h2 {
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.Po-div {
-    border: 5px solid #f4fdff;
-    width: 36%;
-    background-color: #065da4;
-    flex-flow: wrap;
-}
-
-.Po-Art-img {
-    margin-left: 100px;
-}
-
-
-.Resume {
-    
-}
-
-
-.Linked {
-  color: #f4fdff;
-    
-}
-
-.poArt {
-    
-}
-
-.ab-h2 {
-    margin-top: 50px;
-    margin-left: 50px;
+.home-h1 {
+    color: #f4fdff;
+    font-size: 40px;
+    font-weight: 600;
     text-decoration: underline;
 }
 
-.abMe {
-    letter-spacing: 1px;
-    margin-top: 55px;
+.home-p {
+    color: #f4fdff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.home-div {
+    border: 5px solid #f4fdff;
+    background-color: rgba(6, 93, 164, 0.37);
+    margin-top: 7px;
+    margin-left: -7px;
 }
 
 .p-index {
@@ -66,11 +57,105 @@ flex-wrap: wrap;
     order: 2;
 }
 
-header {
+/*Portfolio*/
+.Po-div {
+    border: 5px solid #f4fdff;
+    width: 36%;
     background-color: #065da4;
-    color: #f4fdff;
-    margin: -8px;
+    flex-flow: wrap;
+    flex-direction: column;
+    margin-top: 10px;
 }
+
+.Po-bo {
+    background-image: url(../images/background-file2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[class^="box"] {
+    padding: 112px;
+}
+.box1 {
+    order: 1;
+}
+
+.box2 {
+    order: 2;
+}
+
+.box3 {
+    order: 3;
+}
+
+.box4 {
+    order: 4;
+}
+
+.box5 {
+    order: 5;
+}
+
+.box6 {
+    order: 6;
+}
+
+
+/*Portfolio Art*/
+.Po-Art-img {
+    margin-left: 100px;
+}
+
+.poArt {
+    
+}
+
+/*Resume*/
+
+.Resume {
+    
+}
+
+
+.Linked {
+  color: #f4fdff;
+    
+}
+
+/*About Me*/
+
+.ab-h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-decoration: underline;
+    text-align: center
+}
+
+.abMe {
+    letter-spacing: 1px;
+    margin-top: 55px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(6, 93, 164, 0.34);
+    border: 5px solid #f4fdff;
+}
+
+.abMe-bo {
+    background-image: url(../images/background-file.jpeg);
+    background-size: cover;
+}
+
+/*Resume*/
 
 .Re-h2 {
     width: 50%;
@@ -97,6 +182,8 @@ header {
 .first {
     
 }
+
+/*Nav Bar*/
 
 .nav {
     display: flex;
@@ -151,40 +238,6 @@ a:hover {
     color: #f4fdff;
 }
 
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-[class^="box"] {
-    padding: 112px;
-}
-.box1 {
-    order: 1;
-}
-
-.box2 {
-    order: 2;
-}
-
-.box3 {
-    order: 3;
-}
-
-.box4 {
-    order: 4;
-}
-
-.box5 {
-    order: 5;
-}
-
-.box6 {
-    order: 6;
-}
 @media only screen and (min-width: 481px) and (max-width: 1024px){
     
 }
