@@ -7,6 +7,13 @@ body {
     
 }
 
+.home-bo {
+    background-image: url(../images/background-snow.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .h2 {
     text-transform: uppercase;
     text-align: center;
@@ -62,6 +69,7 @@ flex-wrap: wrap;
 header {
     background-color: #065da4;
     color: #f4fdff;
+    margin: -8px;
 }
 
 .Re-h2 {
