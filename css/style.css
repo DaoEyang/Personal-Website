@@ -41,9 +41,9 @@ header {
 }
 
 .home-div {
-    border: 5px solid #f4fdff;
+    border: 6px solid #f4fdff;
     background-color: rgba(6, 93, 164, 0.37);
-    margin-top: 7px;
+    margin-top: 9px;
     margin-left: -7px;
 }
 
@@ -68,7 +68,7 @@ flex-wrap: wrap;
 }
 
 .Po-bo {
-    background-image: url(../images/background-file2.jpeg);
+    background-image: ;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -183,6 +183,14 @@ flex-wrap: wrap;
     
 }
 
+/*Contact*/
+
+.contact-bo {
+    background-image: url(../images/background-file3.jpeg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /*Nav Bar*/
 
 .nav {
@@ -197,7 +205,7 @@ flex-wrap: wrap;
 
 li {
     border-radius: 15px;
-    display:inline-block;
+    display: inline-block;
     border: 5px solid #f4fdff;
 }
 
@@ -211,13 +219,12 @@ li a {
 
 .Drop {
     position: relative;
-    display: inline-block;
 }
 
 .Sub {
     display: none;
-    position:absolute;
-    width: 50%;
+    position: absolute;
+    width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
