@@ -10,12 +10,16 @@ body {
 .h2 {
     text-transform: uppercase;
     text-align: center;
+    color: #f4fdff;
+    
 }
 
 header {
-    background-color: #065da4;
+    background-color: rgba(6, 93, 164, 0.67);
     color: #f4fdff;
-    margin: -8px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 /*Home*/
@@ -43,7 +47,7 @@ header {
 .home-div {
     border: 6px solid #f4fdff;
     background-color: rgba(6, 93, 164, 0.37);
-    margin-top: 9px;
+    top: ;
     margin-left: -7px;
 }
 
@@ -60,11 +64,13 @@ flex-wrap: wrap;
 /*Portfolio*/
 .Po-div {
     border: 5px solid #f4fdff;
-    width: 36%;
+    width: 33%;
     background-color: #065da4;
     flex-flow: wrap;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 5%;
+    color: #f4fdff;
+    color: #f4fdff;
 }
 
 .Po-bo {
@@ -83,18 +89,21 @@ flex-wrap: wrap;
 }
 
 [class^="box"] {
-    padding: 112px;
+    
 }
 .box1 {
     order: 1;
+    width: 33%
 }
 
 .box2 {
     order: 2;
+    width: 33%;
 }
 
 .box3 {
     order: 3;
+    width:  33%;
 }
 
 .box4 {
@@ -103,6 +112,7 @@ flex-wrap: wrap;
 
 .box5 {
     order: 5;
+    
 }
 
 .box6 {
@@ -112,13 +122,25 @@ flex-wrap: wrap;
 
 /*Portfolio Art*/
 .Po-Art-img {
-    margin-left: 100px;
 }
 
 .poArt {
     
 }
 
+.main-slide {
+    
+}
+
+.fade {
+    display: none;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.main-slide {
+    
+}
 /*Resume*/
 
 .Resume {
@@ -192,6 +214,8 @@ flex-wrap: wrap;
 }
 
 /*Nav Bar*/
+.nav:hover  {
+}
 
 .nav {
     display: flex;
@@ -214,11 +238,12 @@ li a {
     text-decoration: none;
     font-size: 25px;
     font-weight: 500;
-    padding: 5px;
+    padding: 6px;
 }
 
 .Drop {
     position: relative;
+    padding: 0, 13px;
 }
 
 .Sub {
@@ -252,3 +277,21 @@ a:hover {
 @media only screen and (max-width: 480px) {
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
